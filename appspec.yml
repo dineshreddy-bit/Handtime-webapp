@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: /build/
+    destination: /home/ubuntu/handtime-webapp
+permissions:
+  - object: /home/ubuntu/handtime-webapp
+    owner: ubuntu
+    group: ubuntu
